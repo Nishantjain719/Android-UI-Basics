@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dashboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dashboard">
+        <activity
+            android:name=".Common.LoginSignup.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.Dashboard.NoActionBar"></activity>
+        <activity android:name=".Common.LoginSignup.ForgetPassSuccessMessage" />
+        <activity android:name=".Common.LoginSignup.SetNewPassword" />
+        <activity android:name=".Common.LoginSignup.MakeSelection" />
+        <activity android:name=".Common.LoginSignup.ForgetPassword" />
+        <activity android:name=".Common.LoginSignup.VerifyOTP" />
+        <activity android:name=".Common.LoginSignup.SignUp3rd" />
+        <activity android:name=".Common.LoginSignup.SignUp2nd" />
+        <activity
+            android:name=".Common.LoginSignup.SignUp2ndClass"
+            android:label="@string/title_activity_sign_up2nd_class"
+            android:theme="@style/Theme.Dashboard.NoActionBar" />
+        <activity android:name=".Common.LoginSignup.SignUp" />
+        <activity android:name=".Common.LoginSignup.Login" />
+        <activity android:name=".Common.LoginSignup.StartUpScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

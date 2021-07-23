@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+
+    <!-- Strings for dashboard -->
+    <string name="hotles">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="airports">Airports</string>
+
+    <!--Titles and Descriptions -->
+    <string name="featured_locations">All Locations</string>
+    <string name="featured_locations_desc">All the locations that have top demand in town!</string>
+    <string name="most_viewed_locations">Most viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search..</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="heading">Grow\n Your Business</string>
+    <string name="tag_line">we will help u  to grow Business</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="remember_me">Remember me</string>
+    <string name="otp_code_text">Co\nde</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="otp_veri_text">Verification</string>
+    <string name="otp_desc_text">Enter one time password sent to</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="products">
+        <item>nike shirt</item>
+        <item>nike shirt</item>
+        <item>nike shirt</item>
+        <item>nike pant</item>
+
+    </string-array>
+
+    <string-array name="description">
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+
+
+    </string-array>
+    <string name="title_activity_sign_up2nd_class">SignUp2ndClass</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
